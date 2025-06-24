@@ -2,7 +2,7 @@
 
 ## Quick links
 * Link to the dataset used in this analysis can be found <a href="https://github.com/Cxpher/bcc/blob/main/data/data.csv">here</a>.
-* Link to Jupiter Notebook containing code and visualization for the performed analysis can be found <a href="https://github.com/Cxpher/bcc/blob/main/notebook.ipynb">here</a>.
+* Link to Jupiter Notebook containing code and visualization for the performed analysis can be found <a href="https://github.com/Cxpher/bcc/blob/main/main_notebook.ipynb">here</a>.
 * Link to folder containing all saved visualized plots depicted in the Jupiter Notebook can be found <a href="https://github.com/Cxpher/bcc/tree/main/data/images">here</a>.
 
 ## Context
