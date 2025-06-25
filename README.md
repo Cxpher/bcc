@@ -17,18 +17,14 @@ However, minimizing false negatives is important even if we predict false positi
 ## Model selection justification
 1. Logistic regression
    Simple and efficient model that can map relationships between features and the target variable. It gives you a probability.
-
 2. K-Nearest Neighbors
    Simple model that can be used to do classification. It's good for small datasets like the one used here and does not require much knowledge of the data in terms of samples.
-
 3. Random Forests
    It builds multiple forests and merges their predictions (ensemble) for making a more accurate prediction. It does not overfit easily and even if the features are non-linear, it handles those relationships well.
-
 4. Support Vector Machines
    Very good at finding optimal decision boundaries and not prone to overfitting. Can handle both linear and non-linear relationships between features well using kernal functions. Handles outliers in the data very well.
 
 ## Table of findings - Concluding hypothesis
-
 |No. | Findings | Remarks |
 |:--- |:---	  |:---      |
 |1.  | Discovered high positive correlation between a positive diagnosis and various features of the tumor. |      |		
@@ -40,3 +36,7 @@ However, minimizing false negatives is important even if we predict false positi
 |7.  | Only cars with clean title status have reasonable value. |      |
 |8.  | White color cars seems to be the most popular. |      |
 
+**Results and conclusion:** 
+Logistic Regression and Support Vector Machine models were accurate in ensuring there were minimal false negatives. This is important as false negatives in breast cancer detection is what we are trying to avoid. Logistic Regression model was by far the best performing model with SVM a close second. The AUC score for Logistic Regression model was 0.9987 and the AUC score for Support Vector Machines model was 0..9974. The AUC scores are a reflection of the model's ability to distinguish between patients who are diseased vs those who aren't.
+
+Therefore, the final conclusion is that the Logistic Regression model is a very accurate classifier for breast cancer prediction and can be used to provide this view to doctors.
