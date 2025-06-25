@@ -25,18 +25,16 @@ However, minimizing false negatives is important even if we predict false positi
    Very good at finding optimal decision boundaries and not prone to overfitting. Can handle both linear and non-linear relationships between features well using kernal functions. Handles outliers in the data very well.
 
 ## Table of findings - Concluding hypothesis
+
 |No. | Findings | Remarks |
 |:--- |:---	  |:---      |
 |1.  | Discovered high positive correlation between a positive diagnosis and various features of the tumor. |      |		
 |2.  | These features include concave area_worst, concave points_worst, perimeter_worst, radius_worst + concave points_mean and perimeter_mean. |      |
 |3.  | Logistic regression model is the most accurate in prediction. |      |
 |4.  | Support Vector Machines model is a close 2nd. |      |
-|5.  | The condition of the car matters the most. Only cars that are in 'like new', 'excellent' or 'good condition' hold any value. |      |
-|6.  | Cars that are dated in the last 5 or so years hold the most value. Anything older drops price significantly. |      |
-|7.  | Only cars with clean title status have reasonable value. |      |
-|8.  | White color cars seems to be the most popular. |      |
 
-**Results and conclusion:** 
+## Results and conclusion:
+
 Logistic Regression and Support Vector Machine models were accurate in ensuring there were minimal false negatives. This is important as false negatives in breast cancer detection is what we are trying to avoid. Logistic Regression model was by far the best performing model with SVM a close second. The AUC score for Logistic Regression model was 0.9987 and the AUC score for Support Vector Machines model was 0..9974. The AUC scores are a reflection of the model's ability to distinguish between patients who are diseased vs those who aren't.
 
 Therefore, the final conclusion is that the Logistic Regression model is a very accurate classifier for breast cancer prediction and can be used to provide this view to doctors.
