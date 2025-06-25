@@ -14,6 +14,8 @@ However, minimizing false negatives is important even if we predict false positi
 <br/><br/>
 **Determining what features are indicative of a malignant tumor growth in the breast would allow doctors to confidently apply treatment early.**
 
+<br/><br/>
+
 ## Model selection justification
 1. Logistic regression
    Simple and efficient model that can map relationships between features and the target variable. It gives you a probability.
@@ -24,6 +26,8 @@ However, minimizing false negatives is important even if we predict false positi
 4. Support Vector Machines
    Very good at finding optimal decision boundaries and not prone to overfitting. Can handle both linear and non-linear relationships between features well using kernal functions. Handles outliers in the data very well.
 
+<br/><br/>
+
 ## Table of findings - Concluding hypothesis
 
 |No. | Findings | Remarks |
@@ -32,6 +36,8 @@ However, minimizing false negatives is important even if we predict false positi
 |2.  | These features include concave area_worst, concave points_worst, perimeter_worst, radius_worst + concave points_mean and perimeter_mean. |      |
 |3.  | Logistic regression model is the most accurate in prediction. |      |
 |4.  | Support Vector Machines model is a close 2nd. |      |
+
+<br/><br/>
 
 ## Result summary and conclusion:
 
