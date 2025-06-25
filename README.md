@@ -10,12 +10,14 @@
 <br/><br/>
 
 ## Context
-Breast cancer affects many women in today's modern society. Based on research performed by International Agency for Research on Cancer (IARC), the study finds that on average, 1 in 20 women worldwide will be diagnosed with breast cancer in their lifetime, and that if current rates continue, by 2050 there will be 3.2 million new breast cancer cases and 1.1 million breast cancer-related deaths per year. As such, early detection helps and machine learning can help doctors verify the accuracy of their initial diagnosis and if utilized heavily, can potentially reduce the number of breast cancer-related deatths worldwide. 
+Breast cancer affects many women in today's modern society. Based on research performed by International Agency for Research on Cancer (IARC), the study finds that on average, 1 in 20 women worldwide will be diagnosed with breast cancer in their lifetime, and that if current rates continue, by 2050 there will be 3.2 million new breast cancer cases and 1.1 million breast cancer-related deaths per year. 
+
+Studies show that women with breast cancers that are detected at screening have a lower risk of dying from breast cancer. Regularly participating in screening can prevent about 4 out of 10 breast cancer deaths in screen-detected cases. As such, early detection helps and machine learning can help doctors verify the accuracy of their initial diagnosis and if utilized heavily, can potentially reduce the number of breast cancer-related deatths worldwide. 
 
 <br/><br/>
 
 ## Business goal
-However, minimizing false negatives is important even if we predict false positives. This prevents unnecessary grief and apply treatment and dispending medication incorrectly. My goal is to understand what factors are indicative of breast cancer and make best cancer predictions with a test dataset or potentially new generalized samples so that doctors can use this model to make accurate predictions.
+However, minimizing false negatives is important even if we predict a few false positives. This prevents unnecessary grief and apply treatment and dispending medication incorrectly. The goal of this project is to understand what factors are indicative of breast cancer and make accurate best cancer predictions with a test dataset or potentially new generalized samples so that doctors can use this model to make accurate predictions, while ensuring that the number of false negatives are non-existent or minimized greatly.
 
 <br/><br/>
 **Determining what features are indicative of a malignant tumor growth in the breast would allow doctors to confidently apply treatment early.**
