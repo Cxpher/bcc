@@ -10,7 +10,7 @@
 <br/><br/>
 
 ## Context
-Breast cancer affects many women in today's modern society. Based on research performed by International Agency for Research on Cancer (IARC), the study finds that on average, 1 in 20 women worldwide will be diagnosed with breast cancer in their lifetime, and that if current rates continue, by 2050 there will be 3.2 million new breast cancer cases and 1.1 million breast cancer-related deaths per year. As such, early detection helps and machine learning can help doctors verify the accuracy of their initial diagnosis. 
+Breast cancer affects many women in today's modern society. Based on research performed by International Agency for Research on Cancer (IARC), the study finds that on average, 1 in 20 women worldwide will be diagnosed with breast cancer in their lifetime, and that if current rates continue, by 2050 there will be 3.2 million new breast cancer cases and 1.1 million breast cancer-related deaths per year. As such, early detection helps and machine learning can help doctors verify the accuracy of their initial diagnosis and if utilized heavily, can potentially reduce the number of breast cancer-related deatths worldwide. 
 
 <br/><br/>
 
