@@ -47,6 +47,8 @@ However, minimizing false negatives is important even if we predict false positi
 
 ## Result summary and conclusion:
 
+![MarineGEO circle logo](https://github.com/Cxpher/bcc/blob/main/data/images/rocplot.png "MarineGEO logo")
+
 Logistic Regression (LR) and Support Vector Machine (SVM) models were accurate in ensuring there were minimal false negatives. This is important as false negatives in breast cancer detection is what we are trying to avoid. LR model was by far the best performing model with SVM a close second. The AUC score for LR model was 0.9987 and the AUC score for SVM model was 0..9974. The AUC scores are a reflection of the model's ability to distinguish between patients who are diseased vs those who aren't.
 
 Therefore, the final conclusion is that the Logistic Regression model is a very accurate classifier for breast cancer prediction and can be used to provide this view to doctors.
